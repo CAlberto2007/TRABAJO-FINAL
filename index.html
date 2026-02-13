@@ -7,7 +7,30 @@
     <title>Trabajo Final</title>
     <script type="text/javascript" src="index.js"></script>
 </head>
-<body>
-    
+ <header>
+        <h1>Mi Mini Blog</h1>
+        <img src="https://picsum.photos/600/200" alt="Imagen de portada">
+    </header>
+
+    <nav>
+        <a href="#formulario">Ir al formulario</a>
+    </nav>
+
+    <section id="formulario">
+        <h2>Deja tu mensaje</h2>
+
+        <form id="miFormulario">
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+            <button type="submit">Publicar</button>
+        </form>
+    </section>
+
+    <section id="publicaciones">
+        <h2>Publicaciones</h2>
+        <div id="listaMensajes"></div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
